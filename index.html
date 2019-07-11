@@ -8,16 +8,31 @@
   <title>TP JS : jeux de cartes</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="/assets/fonts/webfonts-master/game-of-thrones/GameofThrones.css">
 </head>
 
 <body>
   
+  <header>
+    <h1>Game of Pair</h1>
+    <span id ="displayedScore" >Score:</span>
+    <span id ="score" >0</span>
+    <div>
+      <button onclick="toggleSound()" class="toggleSound">Toggle Sound</button>
+      <button id="reload"><img src="/assets/reloadButton.png" alt="reloadButton" style="height: 25px; width: 25px;"></button>
+    <!-- </div> -->
+  </header>
 
-  <div class="wrapper">
+  <div id="background"  class="wrapper">
+    
     
   </div>
 
   <script src="js/app.js"></script>
 </body>
+
+<footer>
+  <p>&copyFenikz - fenikz31@gmail.com</p>
+</footer>
 
 </html>
